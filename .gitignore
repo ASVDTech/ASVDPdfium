@@ -1,0 +1,13 @@
+bin/Pdf0.bmp
+bin/Pdf1.bmp
+bin/ASVDPdfiumDemo.exe
+samples/__history/
+samples/Win32/
+src/__history/
+package/Win32/
+package/__history/
+package/ProjetoASVDPdfium.groupproj.local
+package/ASVDPdfium.skincfg
+package/ASVDPdfium.res
+package/ASVDPdfium.identcache
+package/ASVDPdfium.dproj.local

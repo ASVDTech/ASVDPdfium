@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2024/08/26 08:12:58.000.513,=C:\Users\stein\OneDrive\Documentos\Embarcadero\Studio\Projects\Unit2.pas</Transaction>
+    <Transaction>2024/09/09 17:15:08.000.774,=C:\Users\stein\OneDrive\Documentos\Embarcadero\Studio\Projects\Unit3.pas</Transaction>
+    <Transaction>2024/10/26 11:12:05.000.948,=C:\Users\stein\OneDrive\Documentos\Embarcadero\Studio\Projects\Unit3.pas</Transaction>
+    <Transaction>2024/12/09 17:49:45.000.528,=C:\Users\stein\OneDrive\Documentos\Embarcadero\Studio\Projects\Unit3.pas</Transaction>
+    <Transaction>2024/12/10 16:02:35.000.934,=C:\Users\stein\OneDrive\Documentos\Embarcadero\Studio\Projects\Unit4.pas</Transaction>
+    <Transaction>2024/12/14 09:19:52.000.151,=C:\Users\stein\OneDrive\Documentos\Embarcadero\Studio\Projects\Unit4.pas</Transaction>
+    <Transaction>2024/12/24 13:12:34.000.760,=C:\Users\stein\OneDrive\Documentos\Embarcadero\Studio\Projects\Unit4.pas</Transaction>
+    <Transaction>2024/12/27 14:06:09.000.190,=C:\Users\stein\OneDrive\Documentos\Embarcadero\Studio\Projects\Unit4.pas</Transaction>
+    <Transaction>2024/12/27 14:06:37.000.841,C:\Users\stein\OneDrive\Documentos\Embarcadero\Studio\Projects\Unit4.dfm=D:\ASVD\Componentes\ASVDPalete\ASVDPdfium\samples\ASVDPdfiumDemo.View.Principal.dfm</Transaction>
+    <Transaction>2024/12/27 14:06:37.000.841,C:\Users\stein\OneDrive\Documentos\Embarcadero\Studio\Projects\Unit4.pas=D:\ASVD\Componentes\ASVDPalete\ASVDPdfium\samples\ASVDPdfiumDemo.View.Principal.pas</Transaction>
+    <Transaction>2024/12/27 14:06:47.000.292,C:\Users\stein\OneDrive\Documentos\Embarcadero\Studio\Projects\Project2.dproj=D:\ASVD\Componentes\ASVDPalete\ASVDPdfium\samples\ASVDPdfiumDemo.dproj</Transaction>
+  </Transactions>
+	<ActiveMobileDevice>
+		<NoProfile Android="49f1dd3f" Android64="49f1dd3f"/>
+	</ActiveMobileDevice>
+</BorlandProject>

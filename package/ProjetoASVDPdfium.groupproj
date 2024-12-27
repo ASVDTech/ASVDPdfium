@@ -1,0 +1,48 @@
+﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+    <PropertyGroup>
+        <ProjectGuid>{6B0CDDCA-BDF8-4237-8FDF-629AE2AA6FC4}</ProjectGuid>
+    </PropertyGroup>
+    <ItemGroup>
+        <Projects Include="ASVDPdfium.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="..\samples\ASVDPdfiumDemo.dproj">
+            <Dependencies/>
+        </Projects>
+    </ItemGroup>
+    <ProjectExtensions>
+        <Borland.Personality>Default.Personality.12</Borland.Personality>
+        <Borland.ProjectType/>
+        <BorlandProject>
+            <Default.Personality/>
+        </BorlandProject>
+    </ProjectExtensions>
+    <Target Name="ASVDPdfium">
+        <MSBuild Projects="ASVDPdfium.dproj"/>
+    </Target>
+    <Target Name="ASVDPdfium:Clean">
+        <MSBuild Projects="ASVDPdfium.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="ASVDPdfium:Make">
+        <MSBuild Projects="ASVDPdfium.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="ASVDPdfiumDemo">
+        <MSBuild Projects="..\samples\ASVDPdfiumDemo.dproj"/>
+    </Target>
+    <Target Name="ASVDPdfiumDemo:Clean">
+        <MSBuild Projects="..\samples\ASVDPdfiumDemo.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="ASVDPdfiumDemo:Make">
+        <MSBuild Projects="..\samples\ASVDPdfiumDemo.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Build">
+        <CallTarget Targets="ASVDPdfium;ASVDPdfiumDemo"/>
+    </Target>
+    <Target Name="Clean">
+        <CallTarget Targets="ASVDPdfium:Clean;ASVDPdfiumDemo:Clean"/>
+    </Target>
+    <Target Name="Make">
+        <CallTarget Targets="ASVDPdfium:Make;ASVDPdfiumDemo:Make"/>
+    </Target>
+    <Import Project="$(BDS)\Bin\CodeGear.Group.Targets" Condition="Exists('$(BDS)\Bin\CodeGear.Group.Targets')"/>
+</Project>
